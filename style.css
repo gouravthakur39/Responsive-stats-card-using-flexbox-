@@ -83,22 +83,21 @@ body {
 }
 
 @media screen and (min-width: 64em) {
-
   body {
     overflow-x: hidden;
-
   }
   .card {
     display: flex;
     flex-direction: row;
     margin: 6rem 10rem;
     width: 70%;
-    min-height: 60vh;
+    min-height: 45vh;
   }
-  .filtered, .img {
+  .filtered,
+  .img {
     width: 100%;
     order: 2;
-    min-height: 24rem;
+    min-height: 26rem;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -106,11 +105,12 @@ body {
     order: 1;
     width: 100%;
     min-height: 24rem;
+    text-align: left;
     /* margin-right: 3rem; */
   }
-  .stats{ 
+  .stats {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 }
